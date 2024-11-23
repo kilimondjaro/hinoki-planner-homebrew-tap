@@ -7,6 +7,6 @@ class HinokiPlanner < Formula
   sha256 "b7560b0e16d2f3cd5b9b5446e1473dad879dfeca454bac00a3469468b4b6f7d7"
 
   def install
-    bin.install "hinoki-planner"
+    bin.install "hinoki-planner-darwin-universal" => "hinoki-planner"
   end
 end
