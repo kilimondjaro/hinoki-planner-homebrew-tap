@@ -4,7 +4,7 @@ class HinokiPlanner < Formula
   version "0.0.1"
 
   url "https://github.com/kilimondjaro/hinoki-cli/releases/download/v0.0.1/hinoki-planner-darwin-universal.tar.gz"
-  sha256 "a59e799900a4ae3a1038849454bad93f7b31b18816dde2b354d9c035650c1e15"
+  sha256 "b7560b0e16d2f3cd5b9b5446e1473dad879dfeca454bac00a3469468b4b6f7d7"
 
   def install
     bin.install "hinoki-planner"
