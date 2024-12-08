@@ -1,10 +1,10 @@
 class HinokiPlanner < Formula
   desc "Command-line planner for efficient goal management"
   homepage "https://github.com/kilimondjaro/hinoki-cli.git"
-  version "0.0.4"
+  version "0.0.5"
 
-  url "https://github.com/kilimondjaro/hinoki-cli/releases/download/v0.0.4/hinoki-planner-darwin-universal.tar.gz"
-  sha256 "279881438e298ffc39099ec7c7780e1b07c12cd13faab1bbd7771b16d7c85245"
+  url "https://github.com/kilimondjaro/hinoki-cli/releases/download/v0.0.5/hinoki-planner-darwin-universal.tar.gz"
+  sha256 "7cf1d8e9a2d1412cbb47daa37a314731bac4ea9f8300da42bf55639234af79f1"
 
   def install
     bin.install "hinoki-planner-darwin-universal" => "hinoki-planner"
